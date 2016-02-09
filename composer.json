@@ -1,0 +1,23 @@
+{
+    "name": "Php mvc",
+    "description": "Php mvc",
+    "authors": [
+        {
+            "name": "Satin",
+            "email": "marcio.satin@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+             "PhpMvc": "vendor",
+             "App": "/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
